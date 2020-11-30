@@ -1,0 +1,6 @@
+
+Creando el remoto para subir el código a GitHub
+renegade@MiPC:~/Proyectos/HTML-CSS$ git remote add HTML-CSS "https://github.com/RenegadeAsturias/HTML-CSS.git"
+
+Y para subir el código:
+renegade@MiPC:~/Proyectos/HTML-CSS$ git push HTML-CSS master
