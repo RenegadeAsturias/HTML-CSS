@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="HTML5 ejemplos de select, datalist"/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>HTML5 select, datalist</title>
+</head>
+    <body>
+        <form id="cursosDisponibles" action="#">
+            <section style="padding: 5px 0px 10px 5px; border: 1px solid antiquewhite;">
+                <select id="cursos1" name="cursos1">
+                    <option value="HTML5">HTML5</option>
+                    <option value="CSS3">CSS3</option>
+                    <option value="Javascript">Javascript</option>
+                </select>
+            </section>
+            <section style="padding: 5px 0px 10px 5px; border: 1px solid antiquewhite;">
+                <input list="cursos2">
+                <datalist id="cursos2">
+                    <option value="HTML5"></option>
+                    <option value="CSS3"></option>
+                    <option value="Javascript"></option>
+                </datalist>
+            </section>
+        </form>
+    </body>
+</html>

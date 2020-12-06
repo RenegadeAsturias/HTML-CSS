@@ -1,0 +1,41 @@
+.main-nav {
+    margin-top:10px;
+    list-style: none; /* Elimina los bullets de la lista */
+    padding-left: 0px;
+    background-color: antiquewhite;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: cadetblue;
+    padding: 5px;
+    text-decoration: none;
+    /* border-radius: 2px; */
+    /* background-color: green; */
+}
+
+/* *********** PSEUDO CLASES ************ */
+/* Definen el estilo de un estado especial de un elemento .*/
+.main-nav__item a:hover {
+    color: blue;
+}
+
+.main-nav__item a:active {
+    color: red;
+}
+
+/* *********** PSEUDO ELEMENTOS ************ */
+/* Define el estilo de una parte específica de un elemento. */
+.main-nav__item a::after {
+    content: " | "
+}
+
+
+
+
+
+
+

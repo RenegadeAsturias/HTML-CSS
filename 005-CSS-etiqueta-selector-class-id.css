@@ -1,0 +1,17 @@
+/* Selector por elemento */
+p {
+    color: blue;
+    font-size: 12px;
+}
+
+/* Selector por Class */
+.parrafo {
+    color: red;
+    font-size: 14px;
+}
+
+/* Selector por ID */
+.miParrafo {
+    color: green;
+    font-size: 16px;
+}
