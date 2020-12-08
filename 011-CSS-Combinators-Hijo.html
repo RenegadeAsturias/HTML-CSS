@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="CSS Combinators Hijo"/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CSS Combinators Hijo</title>
+    <style>
+        /* Combinadores: Hijo */
+        /* Aplícale el estilo a todas las etiquetas 'p - párrafo' que sean hijas directas de una etiqueta 'div' */
+        div > p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <article>
+            <p>Soy un texto</p>
+        </article>
+        <article>
+            <p>Soy un texto</p>
+        </article>
+        <section>
+            <div>
+                <p>Soy un texto</p>
+            </div>
+        </section>
+        <p>soy un texto</p>
+    </div>
+</body>
+</html>

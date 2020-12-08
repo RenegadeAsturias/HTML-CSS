@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="CSS Combinators Adjacent Siblins"/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CSS Combinators Adjacent Siblins</title>
+    <style>
+        /* Adjacent Siblins | Hermano Adjacente | Hermano Cercano */
+        /* Aplícale el estilo a todas las etiquetas 'p - párrafo' que están cerca de una etiqueta 'h2' */
+        h2 + p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div><!-- *********** PADRE ************* -->
+        <h2>Soy un h2</h2>
+        <p>Soy un párrafo</p>
+        <h2>Soy un h2</h2>
+        <h3>Soy un h3</h3>
+        <p>Soy un párrafo</p>
+        <h2>Soy un h2</h2>
+        <p>Soy un párrafo</p>
+    </div>
+</body>
+</html>

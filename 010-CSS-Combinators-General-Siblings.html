@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="CSS Combinators General Siblins"/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CSS Combinators General Siblins</title>
+    <style>
+        /* General Siblins | Hermano Genera  */
+        /* Aplícale el estilo a todas las etiquetas 'p - párrafo' que están cerca de una etiqueta 'h2' */
+        h2 ~ p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div><!-- *********** PADRE ************* -->
+        <h2>Soy un h2</h2><!-- ******* Hermano general 'h2' -->
+        <p>Soy un párrafo</p>
+        <h3>Soy un h3</h3>
+        <h3>Soy un h3</h3>
+        <p>Soy un párrafo</p>
+    </div>
+</body>
+</html>
